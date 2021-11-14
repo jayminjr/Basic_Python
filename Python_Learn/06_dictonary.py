@@ -1,0 +1,11 @@
+d1={"jaymin":"punjabi","niriksha":"dhosa","papa":"gujarati"}
+print(d1)
+print(type(d1))
+d1["mummy"]="kathiyawadi"
+print(d1)
+print(d1["jaymin"])
+print(d1.get("niriksha"))
+d1.update({"dii":"noodle"})
+print(d1)
+print(d1.keys())
+print(d1.items())
